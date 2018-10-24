@@ -71,4 +71,5 @@ count("aeiofdfdfdflksdsnds");
 function buildExpressions(code) {
   var transformedCode = JSKTransformer.transform(code).code;
   var codeByLine = transformedCode.split("/n");
+  var tokenized = esprimatokenize(transformedCode);
 }
