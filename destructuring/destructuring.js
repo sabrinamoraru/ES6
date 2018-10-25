@@ -1,5 +1,4 @@
-// Destructuring makes possible to unpack values from arrays, or properties from objects,
-// into distinct variables.
+// Destructuring makes possible to unpack values from arrays, or properties from objects, into distinct variables.
 var a, b, rest;
 [a, b] = [10, 20];
 
